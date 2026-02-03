@@ -12,3 +12,4 @@ sem <- function(x) {
   }
   sd(x, na.rm = TRUE) / sqrt(length(na.omit(x)))
 }
+# Normalize a numeric vector
